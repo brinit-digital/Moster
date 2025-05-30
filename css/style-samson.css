@@ -1,27 +1,4 @@
-/* CSS Index
------------------------------------
-1. Theme default css
-2. header
-3. slider
-4. about
-5. features
-6. services
-7. video
-8. choose
-9. brand
-10. work-process
-11. team
-12. counter
-13. cta
-14. testimonial
-15. blog
-16. pagination
-17. f-cta
-18. pricing
-19. contact
-20. footer
 
-*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,900&display=swap');
 
 /* 1. Theme default css */
@@ -58,7 +35,7 @@
     font-weight: 600;
 }
 .mean-container .mean-nav {
-    background: #FFFFFF 0% 0% no-repeat padding-box;
+    background: #d3d0d0 0% 0% no-repeat padding-box;
 box-shadow: 3px 4px 15px #0000001A;
         position: absolute;
 }
@@ -881,10 +858,11 @@ padding-top: 30px;
 }
 .header-three .menu-area .container{
     border-radius: 10px;
-  background-color: #fff;
+  background-color: #cdcdcdae;
   box-shadow: 2.5px 4.33px 60px 0px rgba(0, 0, 0, 0.1);
     padding-left: 30px;
     padding-right: 30px;
+    color: #000;
 }
 
 
@@ -892,15 +870,21 @@ padding-top: 30px;
   margin-top: 0;
     background: #fff;
     padding: 0;
+   
 }
 .header-three .sticky-menu .container{
     background: none;
     box-shadow: none;
+    
 }
 
 .header-three .main-menu ul li a {
         font-family: 'Poppins', sans-serif;
-    color:#303539;
+    
+    color: #000;
+}
+.header-three .main-menu ul li a:hover{
+    color:#fe964d ;
 }
 .header-three .main-menu .sub-menu li a,.menu .children li a {
     color: #4f4f4f !important;
