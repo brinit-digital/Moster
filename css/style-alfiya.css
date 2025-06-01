@@ -81,6 +81,9 @@ font-size: 16px;
 	padding-left:10px;
   color:#777;
 }
+.shop-sidebar-widget .widget a:active {
+	border: none;
+}
 
 .shop-sidebar-widget .widget {
   padding: 40px;
@@ -241,6 +244,11 @@ font-size: 16px;
   align-items: center;
   align-self: center;
   align-content: center;
+}
+
+.loadmore-btn{
+  display: flex;
+  justify-content: center;
 }
 
 /* Shop page - End */
@@ -483,6 +491,7 @@ font-size: 16px;
 .table td, .event-text p {
   color: rgb(167, 166, 166);
   border: none !important;
+  font-weight: normal;
 }
 
 .table tbody tr:nth-child(odd) {
@@ -504,7 +513,7 @@ font-size: 16px;
   font-size: 16px;
   font-weight: 500;
   color: #ffffff;
-  letter-spacing: 2px;
+  /* letter-spacing: 2px; */
   /* padding: 0; */
   text-transform: capitalize;
   position: relative;
@@ -530,7 +539,7 @@ font-size: 16px;
   left: 0;
   height: 3px;
   width: 20%;
-  margin: 0 35px 2px 35px;
+  margin: 0 0 2px 40%;
   content: " ";
   background: var(--pri_color);
 }
@@ -613,9 +622,10 @@ font-size: 16px;
       padding: 1%;
       border-radius: 5px;
       outline: none;
-      border: 1px solid #8d8c8b;
+      box-shadow: 0 0 2px 1px #d8d7d7;
       font-size: 15px;
       margin-bottom: 14px;
+      border: none;
     }
     .contact-form input:focus, .contact-form textarea:focus{
       outline: none;
@@ -757,12 +767,14 @@ margin-bottom: 10px;
 
 .footer-subricbe .contact-form{
   padding: 10px;
+ 
 }
 .footer-subricbe .contact-form input{
   border: none;
   outline: none;
   width: 70%;
   margin : 0;
+  box-shadow: none;
 }
 
 .footer-subricbe .footer-btn{
