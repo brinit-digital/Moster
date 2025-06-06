@@ -575,7 +575,7 @@ font-weight: 500;
 	display: inline-block;
 	padding-right: 15px;
 	padding-left: 10px;
-	color: #ddd;
+	color: #ffffff;
 	content: "|";
 }
 .breadcrumb-title h2 {
@@ -668,6 +668,7 @@ font-weight: 700;
   flex-wrap: wrap;
 }
 .about-feature ul li{
+  flex-direction: column;
   list-style-type: square; 
   text-indent: -10px;
 }
@@ -675,7 +676,6 @@ font-weight: 700;
   color: var(--pri_color);
   font-size: 30px;
 }
-
 
 
 /* carousel */
@@ -942,7 +942,7 @@ right: 0;
 .shop-product-title a:hover {
   color: var(--pri_color);
 }
-.fa-star {
+.fa-star, .fa-tablet{
   color: var(--pri_color); /* yellow color */
   font-size: 14px;
 }
@@ -1501,8 +1501,8 @@ border-radius: 100%;
   margin-bottom: 52px;
 }
 .single-testimonial .rating-stars .fa-star{
-  color: rgb(255, 191, 0);
-  font-size: 14px;
+  /* color: rgb(255, 191, 0);
+  font-size: 14px; */
   margin: 12px 0;
 }
 
