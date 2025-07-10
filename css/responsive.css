@@ -7,8 +7,9 @@ background-repeat: no-repeat;
 background-position: 0 -100px;
 }
     .logo {
-  width: 100%;
-margin-bottom: -80px;
+  width: 80%;
+/* margin-bottom: -80px; */
+margin-top:9px;
 }
     .s-about-img img{
         margin: 0;
@@ -239,6 +240,7 @@ margin-bottom: -80px;
     }
  .logo {
   width: 100%;
+  margin-top: 9px;
 }
     .s-about-img img {
   margin-top: auto;
@@ -606,7 +608,7 @@ margin-right: 8px;
   margin-top: 0;
 }
     .menu-area .container {
-  padding: 20px;
+  padding: 10px;
 }
     .pagination-wrap {
     margin-bottom: 50px;
@@ -679,7 +681,7 @@ margin-top: 30px;
 }
     
     .mean-container a.meanmenu-reveal {
-margin-top: -46px;
+margin-top: -65px;
 color: #000;
 border: 1px solid #000;
 }
@@ -751,7 +753,7 @@ border: 1px solid #000;
     height: auto;
     margin-top: 0;
     line-height: inherit;
-    width: 25%;
+    width: 18%;
 }
     .main-menu .has-sub > ul{
         position: relative;
@@ -953,7 +955,7 @@ border: 1px solid #000;
 }
        /* mobile menu*/
     .mean-container a.meanmenu-reveal {
-  margin-top: -47px;
+  margin-top: -58px;
     }
     .header-three .mean-container a.meanmenu-reveal {
   color: #000;
@@ -963,7 +965,7 @@ border: 1px solid #000;
   background: no-repeat;
   display: block;
   height: 3px;
-  margin-top: 3px;
+  /* margin-top: 3px; */
   border-top: 3px solid #000;
 }
 	 .menu .sub-menu {
@@ -973,7 +975,7 @@ border: 1px solid #000;
     background: no-repeat;
     display: block;
      height: 3px;
-    margin-top: 3px;
+    /* margin-top: 3px; */
     border-top: 3px solid #000;
 }
     .mean-container .mean-nav ul li a {
@@ -1128,8 +1130,9 @@ box-shadow: 0 0 0 0;
   top: -380px;
 }
     .header-three .menu-area .container{
-        padding-top: 15px;
-        padding-bottom: 15px;
+        padding: 10px 10px;
+        height: 70px;
+        
     }
     .header-three .menu-area.sticky-menu .container{
         padding-top: 0;
@@ -1303,7 +1306,7 @@ margin: -120px -150px 100px;
     width: 94%;
 }
     .logo img{
-        width: 185px;
+        width: 125px;
     }
     .counter-area .single-counter {
   border-right: none;
@@ -1398,7 +1401,7 @@ margin-top: 0;
 }
     /* mobile menu*/
      .mean-container a.meanmenu-reveal {
-  margin-top: -38px;
+  margin-top: -59px;
     }
 	 .menu .sub-menu {
     border-top: 1px solid rgb(217, 217, 217, 0.5);
@@ -1473,6 +1476,7 @@ box-shadow: 0 0 0 0;
     .header-three .mean-container a.meanmenu-reveal {
   color: #000;
   border: 1px solid #000;
+  
 }
     /* mobile menu End*/
     .slider-four .slider-bg h5 {
@@ -1630,6 +1634,7 @@ display: none !important;
     .mean-container a.meanmenu-reveal {
 color: #000;
 border: 1px solid #000;
+
 }
   
     .copyright-wrap ul{
