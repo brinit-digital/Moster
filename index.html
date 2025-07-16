@@ -20,6 +20,10 @@
       <link rel="stylesheet" href="css/slick.css">
       <link rel="stylesheet" href="css/meanmenu.css">
       <link rel="stylesheet" href="css/default.css">
+
+      <!-- Owl Carousal -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/assets/owl.carousel.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/assets/owl.theme.default.min.css">
       <!-- <link rel="stylesheet" href="css/style.css"> -->
       <link rel="stylesheet" href="css/responsive.css">
 
@@ -32,8 +36,8 @@
         <div class="container" >
           <div class="second-menu row" >
               <div class="col-xl-2 col-lg-2 align-self-start" >
-                  <div class="logo" >
-                      <a href="index.html"><img src="img/logo/logo.png" ></a>
+                  <div class="logo logo-img" >
+                      <a href="index.html"><img src="img/logo/logo.png" alt="logo"></a>
                   </div>
               </div>
               <div class="col-xl-7 col-lg-7" >
@@ -197,74 +201,18 @@
       </section>
       <!-- about-area-end -->
 
-
       <!--------best seller ------>
       <section class="container pt-130 pb-130">
         <div class="section-title">
           <h5 class="text-center fw-bold mb-3 ">BEST SELLER</h5>
           <h2 class="text-center text-dark mb-4"> New available products</h2>
         </div>
-        <div id="tvCarousel" class="carousel slide" data-bs-ride="carousel" data-animation="fadeInDown" data-delay=".4s">
-          <div class="carousel-inner"><br>
-            <!-- Slide 1: First 4 cards -->
-            <div class="carousel-item active">
-              <div class="row g-4">
-                <!-- Card 1 -->
-                <div class="col-sm-12 col-md-6 col-lg-3">
-                  <div class="card h-100" style="padding:20px; border: none;">
-                    <div class="shop-product__img">
-                        <a href="50-4K-google-tv.html"><img src="img/shop/pr1.png" alt=""></a>
-                    </div>
-                    <div class="shop-product__content text-left pt-20 pl-5">
-                      <span class='fas fa-heart'></span>
-                      <span class="shop-product-cat"><a href="">Moster TV</a></span>
-                      <h4 class="shop-product-title"><a href="50-4K-google-tv.html">50" 4K google tv</a></h4>
-                      <div class="mb-10">
-                        <i class='fas fa-star'></i>
-                        <i class='fas fa-star'></i>
-                        <i class='fas fa-star'></i>
-                        <i class='fas fa-star'></i>
-                        <i class='fas fa-star'></i>
-                      </div>
-                      <p>Dive into cinematic 4K entertainment with smart voice control.</p>
-                      <div class="shop-price-button-container">
-                        <h4 class="shop-product-price">₹32999.00</h4>
-                        <div class="base-btn text-center">
-                          <a href="50-4K-google-tv.html">Know More</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- Card 2 -->
-                <div class="col-sm-12 col-md-6 col-lg-3">
-                  <div class="card h-100" style="padding:20px; border: none;">
-                    <div class="shop-product__img">
-                        <a href="55-4k-google-tv.html"><img src="img/shop/pr2.png" alt=""></a>
-                    </div>
-                    <div class="shop-product__content text-left pt-20 pl-5">
-                      <span class='fas fa-heart'></span>
-                      <span class="shop-product-cat"><a href="">Moster TV</a></span>
-                      <h4 class="shop-product-title"><a href="55-4k-google-tv.html">55” 4K Google TV</a></h4>
-                      <div class="mb-10">
-                        <i class='fas fa-star'></i>
-                        <i class='fas fa-star'></i>
-                        <i class='fas fa-star'></i>
-                        <i class='fas fa-star'></i>
-                        <i class='fas fa-star'></i>
-                      </div>
-                      <p>Power-packed with 4K visuals and Google TV, built for stunning home theatre vibes.</p>
-                      <div class="shop-price-button-container">
-                        <h4 class="shop-product-price">₹37999.00</h4>
-                        <div class="base-btn text-center">
-                          <a href="55-4k-google-tv.html">Know More</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- Card 3 -->
-                <div class="col-sm-12 col-md-6 col-lg-3">
+        <div class="container">
+          <div class="row">
+            <div class="owl-carousel owl-theme">
+              <!-- Slide 1 -->
+              <div class="item" >
+                <div class="col-sm-12 col-md-12 col-lg-12">
                   <div class="card h-100" style="padding:20px; border: none;">
                     <div class="shop-product__img">
                         <a href="65-4k-google-tv.html"><img src="img/shop/pr3.png" alt=""></a>
@@ -290,8 +238,72 @@
                     </div>
                   </div>
                 </div>
-                <!-- Card 4 -->
-                <div class="col-sm-12 col-md-6 col-lg-3">
+              </div>
+
+              <!-- Slide 2 -->
+              <div class="item" >
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                  <div class="card h-100" style="padding:20px; border: none;">
+                    <div class="shop-product__img">
+                        <a href="55-4k-google-tv.html"><img src="img/shop/pr2.png" alt=""></a>
+                    </div>
+                    <div class="shop-product__content text-left pt-20 pl-5">
+                      <span class='fas fa-heart'></span>
+                      <span class="shop-product-cat"><a href="">Moster TV</a></span>
+                      <h4 class="shop-product-title"><a href="55-4k-google-tv.html">55” 4K Google TV</a></h4>
+                      <div class="mb-10">
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                      </div>
+                      <p>Power-packed with 4K visuals and Google TV, built for stunning home theatre vibes.</p>
+                      <div class="shop-price-button-container">
+                        <h4 class="shop-product-price">₹37999.00</h4>
+                        <div class="base-btn text-center">
+                          <a href="55-4k-google-tv.html">Know More</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 3 -->
+                <div class="item" >
+                  <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div class="card h-100" style="padding:20px; border: none;">
+                      <div class="shop-product__img">
+                          <a href="50-4K-google-tv.html"><img src="img/shop/pr1.png" alt=""></a>
+                      </div>
+                      <div class="shop-product__content text-left pt-20 pl-5">
+                        <span class='fas fa-heart'></span>
+                        <span class="shop-product-cat"><a href="">Moster TV</a></span>
+                        <h4 class="shop-product-title"><a href="50-4K-google-tv.html">50" 4K google tv</a></h4>
+                        <div class="mb-10">
+                          <i class='fas fa-star'></i>
+                          <i class='fas fa-star'></i>
+                          <i class='fas fa-star'></i>
+                          <i class='fas fa-star'></i>
+                          <i class='fas fa-star'></i>
+                        </div>
+                        <p>Dive into cinematic 4K entertainment with smart voice control.</p>
+                        <div class="shop-price-button-container">
+                          <h4 class="shop-product-price">₹32999.00</h4>
+                          <div class="base-btn text-center">
+                            <a href="50-4K-google-tv.html">Know More</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+
+
+              <!-- Slide 4 -->
+              <div class="item">
+                <div class="col-sm-12 col-md-12 col-lg-12">
                   <div class="card h-100" style="padding:20px; border: none;">
                     <div class="shop-product__img">
                       <a href="43-fhd-google-tv copy.html"><img src="img/shop/pr4.png" alt=""></a>
@@ -318,124 +330,131 @@
                   </div>
                 </div>
               </div>
-            </div>
-            <!-- Slide 2: Next 4 cards -->
-            <div class="carousel-item">
-              <div class="row g-4">
-                <!-- Card 1 -->
-                <div class="col-sm-12 col-md-6 col-lg-3">
-                  <div class="card h-100" style="padding:20px; border: none;">
-                    <div class="shop-product__img">
-                        <a href="32-android-smart-led-tv-nicer.html"><img src="img/shop/pr3.png" alt=""></a>
-                    </div>
-                    <div class="shop-product__content text-left pt-20 pl-5">
-                      <span class='fas fa-heart'></span>
-                      <span class="shop-product-cat"><a href="">Nier TV</a></span>
-                      <h4 class="shop-product-title"><a href="32-android-smart-led-tv-nicer.html">32" ANDROID SMART LED TV</a></h4>
-                      <div class="mb-10">
-                        <i class='fas fa-star'></i>
-                        <i class='fas fa-star'></i>
-                        <i class='fas fa-star'></i>
-                        <i class='fas fa-star'></i>
-                        <i class='fas fa-star'></i>
-                      </div>
-                      <p>Affordable smart TV with Android OS, USB/HDMI ports, and compact design.</p>
-                      <div class="shop-price-button-container">
-                        <h4 class="shop-product-price">₹7900.00</h4>
-                        <div class="base-btn text-center">
-                          <a href="32-android-smart-led-tv-nicer.html">Know More</a>
+
+              <!-- Slide 5 -->
+              <div class="item" >
+                  <div class="col-sm-12 col-md-12 col-lg-12">
+                        <div class="card h-100" style="padding:20px; border: none;">
+                          <div class="shop-product__img">
+                              <a href="32-android-smart-led-tv-nicer.html"><img src="img/shop/pr3.png" alt=""></a>
+                          </div>
+                          <div class="shop-product__content text-left pt-20 pl-5">
+                            <span class='fas fa-heart'></span>
+                            <span class="shop-product-cat"><a href="">Nier TV</a></span>
+                            <h4 class="shop-product-title"><a href="32-android-smart-led-tv-nicer.html">32" ANDROID SMART LED TV</a></h4>
+                            <div class="mb-10">
+                              <i class='fas fa-star'></i>
+                              <i class='fas fa-star'></i>
+                              <i class='fas fa-star'></i>
+                              <i class='fas fa-star'></i>
+                              <i class='fas fa-star'></i>
+                            </div>
+                            <p>Affordable smart TV with Android OS, USB/HDMI ports, and compact design.</p>
+                            <div class="shop-price-button-container">
+                              <h4 class="shop-product-price">₹7900.00</h4>
+                              <div class="base-btn text-center">
+                                <a href="32-android-smart-led-tv-nicer.html">Know More</a>
+                              </div>
+                            </div>
+                          </div>
                         </div>
-                      </div>
-                    </div>
                   </div>
+              </div>
+
+              <!-- Slide 6 -->
+              <div class="item" >
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                        <div class="card h-100" style="padding:20px; border: none;">
+                          <div class="shop-product__img">
+                              <a href="43-android-smart-led-tv-nicer.html"><img src="img/shop/pr1.png" alt=""></a>
+                          </div>
+                          <div class="shop-product__content text-left pt-20 pl-5">
+                            <span class='fas fa-heart'></span>
+                            <span class="shop-product-cat"><a href="">Nier TV</a></span>
+                            <h4 class="shop-product-title"><a href="43-android-smart-led-tv-nicer.html">43" ANDROID SMART LED TV</a></h4>
+                            <div class="mb-10">
+                              <i class='fas fa-star'></i>
+                              <i class='fas fa-star'></i>
+                              <i class='fas fa-star'></i>
+                              <i class='fas fa-star'></i>
+                              <i class='fas fa-star'></i>
+                            </div>
+                            <p>A smart 43" TV with HD input, Android OS, and essential ports for daily use.</p>
+                            <div class="shop-price-button-container">
+                              <h4 class="shop-product-price">₹12900.00</h4>
+                              <div class="base-btn text-center">
+                                <a href="43-android-smart-led-tv-nicer.html">Know More</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                 </div>
-                <!-- Card 2 -->
-                <div class="col-sm-12 col-md-6 col-lg-3">
-                  <div class="card h-100" style="padding:20px; border: none;">
-                    <div class="shop-product__img">
-                        <a href="43-android-smart-led-tv-nicer.html"><img src="img/shop/pr1.png" alt=""></a>
-                    </div>
-                    <div class="shop-product__content text-left pt-20 pl-5">
-                      <span class='fas fa-heart'></span>
-                      <span class="shop-product-cat"><a href="">Nier TV</a></span>
-                      <h4 class="shop-product-title"><a href="43-android-smart-led-tv-nicer.html">43" ANDROID SMART LED TV</a></h4>
-                      <div class="mb-10">
-                        <i class='fas fa-star'></i>
-                        <i class='fas fa-star'></i>
-                        <i class='fas fa-star'></i>
-                        <i class='fas fa-star'></i>
-                        <i class='fas fa-star'></i>
-                      </div>
-                      <p>A smart 43" TV with HD input, Android OS, and essential ports for daily use.</p>
-                      <div class="shop-price-button-container">
-                        <h4 class="shop-product-price">₹12900.00</h4>
-                        <div class="base-btn text-center">
-                          <a href="43-android-smart-led-tv-nicer.html">Know More</a>
+              </div>
+
+              <!-- Slide 7 -->
+              <div class="item" >
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                        <div class="card h-100" style="padding:20px; border: none;">
+                          <div class="shop-product__img">
+                              <a href="32-android-smart-led-tv.html"><img src="img/shop/pr4.png" alt=""></a>
+                          </div>
+                          <div class="shop-product__content text-left pt-20 pl-5">
+                            <span class='fas fa-heart'></span>
+                            <span class="shop-product-cat"><a href="">Moster TV</a></span>
+                            <h4 class="shop-product-title"><a href="32-android-smart-led-tv.html">32" ANDROID SMART LED TV</a></h4>
+                            <div class="mb-10">
+                              <i class='fas fa-star'></i>
+                              <i class='fas fa-star'></i>
+                              <i class='fas fa-star'></i>
+                              <i class='fas fa-star'></i>
+                              <i class='fas fa-star'></i>
+                            </div>
+                            <p>Compact Android TV with smart streaming and everyday entertainment.</p>
+                            <div class="shop-price-button-container">
+                              <h4 class="shop-product-price">₹10200.00</h4>
+                              <div class="base-btn text-center">
+                                <a href="32-android-smart-led-tv.html">Know More</a>
+                              </div>
+                            </div>
+                          </div>
                         </div>
-                      </div>
-                    </div>
-                  </div>
                 </div>
-                <!-- Card 3 -->
-                <div class="col-sm-12 col-md-6 col-lg-3">
-                  <div class="card h-100" style="padding:20px; border: none;">
-                    <div class="shop-product__img">
-                        <a href="32-android-smart-led-tv.html"><img src="img/shop/pr4.png" alt=""></a>
-                    </div>
-                    <div class="shop-product__content text-left pt-20 pl-5">
-                      <span class='fas fa-heart'></span>
-                      <span class="shop-product-cat"><a href="">Moster TV</a></span>
-                      <h4 class="shop-product-title"><a href="32-android-smart-led-tv.html">32" ANDROID SMART LED TV</a></h4>
-                      <div class="mb-10">
-                        <i class='fas fa-star'></i>
-                        <i class='fas fa-star'></i>
-                        <i class='fas fa-star'></i>
-                        <i class='fas fa-star'></i>
-                        <i class='fas fa-star'></i>
-                      </div>
-                      <p>Compact Android TV with smart streaming and everyday entertainment.</p>
-                      <div class="shop-price-button-container">
-                        <h4 class="shop-product-price">₹10200.00</h4>
-                        <div class="base-btn text-center">
-                          <a href="32-android-smart-led-tv.html">Know More</a>
+              </div>
+
+              <!-- Slide 8 -->
+              <div class="item">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                        <div class="card h-100" style="padding:20px; border: none;">
+                          <div class="shop-product__img">
+                            <a href="43-android-smart-led-tv.html"><img src="img/shop/pr1.png" alt=""></a>
+                          </div>
+                          <div class="shop-product__content text-left pt-20 pl-5">
+                            <span class='fas fa-heart'></span>
+                            <span class="shop-product-cat"><a href="">Moster TV</a></span>
+                            <h4 class="shop-product-title"><a href="43-android-smart-led-tv.html">43" ANDROID SMART LED TV</a></h4>
+                            <div class="mb-10">
+                              <i class='fas fa-star'></i>
+                              <i class='fas fa-star'></i>
+                              <i class='fas fa-star'></i>
+                              <i class='fas fa-star'></i>
+                              <i class='fas fa-star'></i>
+                            </div>
+                            <p>Stream smarter with Android apps, dual HDMI ports, and a crisp HD-ready screen.</p>
+                            <div class="shop-price-button-container">
+                              <h4 class="shop-product-price">₹18900.00</h4>
+                              <div class="base-btn text-center">
+                                <a href="43-android-smart-led-tv.html">Know More</a>
+                              </div>
+                            </div>
+                          </div>
                         </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- Card 4 -->
-                <div class="col-sm-12 col-md-6 col-lg-3">
-                  <div class="card h-100" style="padding:20px; border: none;">
-                    <div class="shop-product__img">
-                      <a href="43-android-smart-led-tv.html"><img src="img/shop/pr1.png" alt=""></a>
-                    </div>
-                    <div class="shop-product__content text-left pt-20 pl-5">
-                      <span class='fas fa-heart'></span>
-                      <span class="shop-product-cat"><a href="">Moster TV</a></span>
-                      <h4 class="shop-product-title"><a href="43-android-smart-led-tv.html">43" ANDROID SMART LED TV</a></h4>
-                      <div class="mb-10">
-                        <i class='fas fa-star'></i>
-                        <i class='fas fa-star'></i>
-                        <i class='fas fa-star'></i>
-                        <i class='fas fa-star'></i>
-                        <i class='fas fa-star'></i>
-                      </div>
-                      <p>Stream smarter with Android apps, dual HDMI ports, and a crisp HD-ready screen.</p>
-                      <div class="shop-price-button-container">
-                        <h4 class="shop-product-price">₹18900.00</h4>
-                        <div class="base-btn text-center">
-                          <a href="43-android-smart-led-tv.html">Know More</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="row justify-content-center pt-70">
-          <div class="shop-more-btn col-lg-2 ">
+        <div class="row justify-content-center pt-70 text-center">
+          <div class="shop-more-btn ">
             <a href="shop.html">View More</a>
           </div>
         </div>
@@ -457,7 +476,7 @@
       <section class="counter-section text-center">
           <div class="container">
               <div class="row g-4">
-                  <div class="col-12 col-sm-6 col-md-3">
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                       <div class="counter-box">
                           <img src="img/icon/customer1.png" alt=""  >
                           <div class="counter-number" data-target="1000" data-suffix="+">0</div><br>
@@ -465,7 +484,7 @@
                       </div>
                   </div>
 
-                  <div class="col-12 col-sm-6 col-md-3">
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                       <div class="counter-box">
                           <img src="img/icon/customer-support.png" alt=""  >
                           <div class="counter-number" data-target="24" data-suffix="*7">0</div><br>
@@ -473,7 +492,7 @@
                       </div>
                   </div>
 
-                  <div class="col-12 col-sm-6 col-md-3">
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                       <div class="counter-box">
                           <img src="img/icon/quality-assurance.png" alt=""  >
                           <div class="counter-number" data-target="100" data-suffix="%">0</div><br>
@@ -481,7 +500,7 @@
                       </div>
                   </div>
 
-                  <div class="col-12 col-sm-6 col-md-3">
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                       <div class="counter-box">
                           <img src="img/icon/rating.png" alt=""  >
                           <div class="counter-number" data-target="4" data-suffix="/5">0</div><br>
@@ -650,7 +669,7 @@
       <section class="cta">
           <div class="container my-5"  >
               <div class="promo-banner">
-                  <div class="promo-content col-md-6 col-sm-12">
+                  <div class="promo-content col-lg-6 col-md-12 col-sm-12">
                       <h3>Upscale Your Every Moment</h3>
                       <p>Redefining TV with AI-enhanced picture and sound. Experience the future with Samsung Vision AI.</p>
                       <div class="base-btn cta-btn text-center">
@@ -791,12 +810,45 @@ const updateCount = () => {
 updateCount();
 });
 </script>
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
 
+  <!-- Owl Carousel JS -->
+  <script src="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/owl.carousel.min.js"></script>
 
-
+  <!-- Owl Init Script -->
+  <script>
+    $(document).ready(function(){
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        // autoplayHoverPause: true,
+        // nav: true,
+        dots: true,
+        navText: ["<span class='owl-prev'>&#10094;</span>", "<span class='owl-next'>&#10095;</span>"],
+        responsive: {
+          // 0: { items: 1 },
+          // 480: { items: 2 },
+          // 768: { items: 2 },
+          // 991: { items: 4 },
+          // 1000: { items: 3 },
+          // 1399: { items: 4 }
+          0: { items: 1 },
+          480: { items: 1 },
+          768: { items: 2 },
+          1000: { items: 3 },
+          1400: { items: 4 }
+        },
+        animateOut: 'fadeOut',
+        animateIn: 'fadeIn'
+      });
+    });
+  </script>
 <!-- JS here -->
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-    <script src="js/vendor/jquery-3.6.0.min.js"></script>
+    <!-- <script src="js/vendor/jquery-3.6.0.min.js"></script> -->
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/slick.min.js"></script>
@@ -814,5 +866,7 @@ updateCount();
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/element-in-view.js"></script>
     <script src="js/main.js"></script>
+
+
 </body>
 </html>

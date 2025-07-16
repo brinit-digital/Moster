@@ -1047,7 +1047,7 @@ box-shadow: 0 0 0 0;
     }
 
     .sticky-menu .mean-container a.meanmenu-reveal {
-    margin-top: 60px;
+    /* margin-top: 60px; */
     color: #000;
     border: 1px solid #000;
 }
@@ -1297,7 +1297,7 @@ margin: -120px -150px 100px;
     padding: 10px 0;
 }
     .sticky-menu .mean-container a.meanmenu-reveal {
-    margin-top: -25px;
+    /* margin-top: -25px; */
     }
     .img-main {
     margin: 0;
@@ -2175,8 +2175,9 @@ background: #002e5b;
 }
 
 .s-about-img img {
-width: 300px;
+/* width: 300px; */
 margin: 0;
+height: auto;
 }
 .about-user .img {
   margin-right: 30px;
