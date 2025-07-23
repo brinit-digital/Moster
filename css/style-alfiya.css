@@ -346,6 +346,7 @@ top: -3px;
     position: absolute;
     top: 40%;
     right: 22%;
+    list-style-type: none;
 }
 .slider-active .slick-dots li button {
     text-indent: -99999px;
@@ -511,8 +512,8 @@ left: inherit;
 	display: block;
 	margin-bottom: 20px;
 }
-.slider-content h2 {
-    font-size: 80px;
+.slider-content h1, .slider-content h2 {
+    font-size: 62px;
     letter-spacing: 1.0px;
     line-height: 1.2;
     margin-bottom: 40px;
@@ -522,7 +523,7 @@ left: inherit;
 }
 
 .slider-content h5{
-color: #fff;
+color: var(--pri_color);
 margin-bottom: 15px;
 font-size: 20px;
 text-transform: uppercase;
@@ -849,6 +850,11 @@ right: 0;
 
 
 /* sidebar-catagories */
+#category-filter a.active {
+ 
+  color: var(--pri_color);
+}
+
 
 .shop-sidebar-widget a{
 	color:#777;
