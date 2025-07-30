@@ -81,7 +81,7 @@ $(function () {
 	});
 });
 
-// mainSlider
+// main	
 function mainSlider() {
 	var BasicSlider = $('.slider-active');
 	BasicSlider.on('init', function (e, slick) {
@@ -329,7 +329,7 @@ $('.testimonial-active').slick({
 	slidesToScroll: 2,
 	responsive: [
 		{
-			breakpoint: 1024,
+			breakpoint: 1199,
 			settings: {
 				slidesToShow: 2,
 				slidesToScroll: 2,
