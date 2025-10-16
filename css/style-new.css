@@ -1188,6 +1188,30 @@ color: #504f4f;
   text-decoration: line-through;
 }
 
+.price-details table {
+  border-collapse: separate; /* must be 'separate' for border-radius to work */
+  border-spacing: 0;
+  text-align: left;
+  border: 1px solid #c77e2e;
+  border-radius: 8px; 
+  overflow: hidden; /* clip inner cell borders to the rounded corners */
+  padding: 12px;
+}
+
+.price-details .offer-list {
+  color:black;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.price-details .price-list {
+  color:var(--pri_color);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+
+
 .product-cat > a {
   color: #595B6B;
 }
