@@ -112,7 +112,7 @@
                                 <div class="tab-content" id="imageTabContent">
                                     <div class="tab-pane fade show active" id="image-home" role="tabpanel">
                                         <div class="product-large-img">
-                                            <img src="img/products/43_Android_LED_TV__FHD-rbg.png" alt="">
+                                            <img src="img/products/43 FHD ANDROID LED TV.png" alt="">
                                         </div>
                                     </div>
                                     <!-- <div class="tab-pane fade" id="image-varient1" role="tabpanel">
@@ -163,7 +163,7 @@
                             <div class="product-details mb-30">
                                 <div class="product-details-title">
                                     <span>MOSTER TV</span>
-                                    <h1>43” Moster FHD Android Smart LED TV - Full HD Display with Smooth Performance & Connectivity</h1>
+                                    <h1>43” Moster FHD Android Smart LED TV - Free Soundbar with subwoofer</h1>
                                     <!-- <div class="price-details pt-15">
                                         <span class="new-price">₹29990.00</span>
                                         <span class="old-price">₹18900.00</span>
@@ -173,10 +173,10 @@
                                         <table cellpadding="8" cellspacing="0" >
                                             <tbody>
                                                 <tr>
-                                                    <td class="offer-list">4-Year Warranty</td>
-                                                    <td class="price-list">₹18,999</td>
+                                                    <td class="offer-list">Free Soundbar with subwoofer<br>4-Year Warranty </td>
+                                                    <td class="price-list">₹20500</td>
                                                 </tr>
-                                                <tr>
+                                                <!-- <tr>
                                                     <td class="offer-list">2-Year Warranty (Without offer & exchange)</td>
                                                     <td class="price-list">₹15,900</td>
                                                 </tr>
@@ -187,7 +187,7 @@
                                                 <tr>
                                                     <td class="offer-list">Paid Offer - Stabilizer</td>
                                                     <td class="price-list">₹1,200</td>
-                                                </tr>
+                                                </tr> -->
                                             </tbody>
                                         </table>
                                     </div>
@@ -200,7 +200,7 @@
                                 <div class="product-cat mt-30">
                                     <span>Category:&nbsp&nbsp</span>
                                     <!-- <a href="#">Moster Tv,</a> -->
-                                    <a href="shop.html?category=Moster TV">Moster Tv</a>
+                                    <a href="shop.html?category=Moster TV">Moster Tv, </a>
                                     <a href="#">43" ANDROID SMART LED TV</a>
                                 </div>
                                 
@@ -832,7 +832,7 @@
                             <div class="col-lg-3">   
                             </div>
                             <div class="col-lg-4 text-right">
-                                Website Designed By <a href="https://brinit.in/" target="_blank">Brin'IT</a>      
+                                Website Designed By <a href="#" target="_blank">PRception</a>            
                             </div>
                         </div>
                     </div>
@@ -841,25 +841,26 @@
         <!-- footer-end -->
 
 <script>
-  const pageUrl = encodeURIComponent(window.location.href);
-  const pageTitle = encodeURIComponent(document.title);
+    document.addEventListener("DOMContentLoaded", function () {
+        let pageUrl = encodeURIComponent(window.location.href);
+        let pageTitle = encodeURIComponent(document.title);
 
-  // Facebook
-  document.getElementById('share-facebook').href =
-    `https://www.facebook.com/sharer/sharer.php?u=${pageUrl}`;
+        // Facebook
+        document.getElementById("share-facebook").href =
+            `https://www.facebook.com/sharer/sharer.php?u=${pageUrl}`;
 
-  // Twitter (X)
-  document.getElementById('share-twitter').href =
-    `https://twitter.com/intent/tweet?url=${pageUrl}&text=${pageTitle}`;
+        // X (Twitter)
+        document.getElementById("share-twitter").href =
+            `https://twitter.com/intent/tweet?url=${pageUrl}&text=${pageTitle}`;
 
-  // WhatsApp
-  document.getElementById('share-whatsapp').href =
-    `https://api.whatsapp.com/send?text=${pageTitle}%20${pageUrl}`;
+        // WhatsApp
+        document.getElementById("share-whatsapp").href =
+            `https://wa.me/?text=${pageTitle}%20${pageUrl}`;
 
-  // Instagram (Profile link or fallback)
-  // Replace YOUR_INSTAGRAM_USERNAME with your real one
-  document.getElementById('share-instagram').href =
-    'https://www.instagram.com/';
+        // Instagram (No direct share URL – open app/page)
+        document.getElementById("share-instagram").href =
+            `https://www.instagram.com/`;
+    });
 </script>
         <!-- <script>
             document.addEventListener("DOMContentLoaded", function () {

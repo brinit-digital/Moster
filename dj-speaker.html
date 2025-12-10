@@ -737,7 +737,7 @@
                             <div class="col-lg-3">   
                             </div>
                             <div class="col-lg-4 text-right">
-                                Website Designed By <a href="https://brinit.in/" target="_blank">Brin'IT</a>      
+                                Website Designed By <a href="#" target="_blank">PRception</a>            
                             </div>
                         </div>
                     </div>
@@ -746,25 +746,26 @@
         <!-- footer-end -->
 
 <script>
-  const pageUrl = encodeURIComponent(window.location.href);
-  const pageTitle = encodeURIComponent(document.title);
+    document.addEventListener("DOMContentLoaded", function () {
+        let pageUrl = encodeURIComponent(window.location.href);
+        let pageTitle = encodeURIComponent(document.title);
 
-  // Facebook
-  document.getElementById('share-facebook').href =
-    `https://www.facebook.com/sharer/sharer.php?u=${pageUrl}`;
+        // Facebook
+        document.getElementById("share-facebook").href =
+            `https://www.facebook.com/sharer/sharer.php?u=${pageUrl}`;
 
-  // Twitter (X)
-  document.getElementById('share-twitter').href =
-    `https://twitter.com/intent/tweet?url=${pageUrl}&text=${pageTitle}`;
+        // X (Twitter)
+        document.getElementById("share-twitter").href =
+            `https://twitter.com/intent/tweet?url=${pageUrl}&text=${pageTitle}`;
 
-  // WhatsApp
-  document.getElementById('share-whatsapp').href =
-    `https://api.whatsapp.com/send?text=${pageTitle}%20${pageUrl}`;
+        // WhatsApp
+        document.getElementById("share-whatsapp").href =
+            `https://wa.me/?text=${pageTitle}%20${pageUrl}`;
 
-  // Instagram (Profile link or fallback)
-  // Replace YOUR_INSTAGRAM_USERNAME with your real one
-  document.getElementById('share-instagram').href =
-    'https://www.instagram.com/';
+        // Instagram (No direct share URL – open app/page)
+        document.getElementById("share-instagram").href =
+            `https://www.instagram.com/`;
+    });
 </script>
         <!-- <script>
             document.addEventListener("DOMContentLoaded", function () {
