@@ -4,6 +4,204 @@
   --pri_color:#c77e2e;
 }
 
+/* Christmas Modal Styles */
+.christmas-modal-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 9999;
+  justify-content: center;
+  align-items: center;
+  animation: fadeInModal 0.5s ease-in-out;
+}
+
+@keyframes fadeInModal {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.christmas-modal-content {
+  background: linear-gradient(135deg, #1a472a 0%, #2d5a3d 50%, #1a472a 100%);
+  border: 3px solid #c77e2e;
+  border-radius: 15px;
+  padding: 40px 50px;
+  max-width: 500px;
+  width: 90%;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 10px 40px rgba(199, 126, 46, 0.5), 0 0 20px rgba(255, 255, 255, 0.1);
+  animation: slideInModal 0.5s ease-out;
+}
+
+@keyframes slideInModal {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.christmas-modal-close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: transparent;
+  border: none;
+  font-size: 40px;
+  color: #c77e2e;
+  cursor: pointer;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.christmas-modal-close:hover {
+  transform: rotate(90deg);
+  color: #ff6b6b;
+}
+
+.christmas-modal-inner {
+  margin-bottom: 20px;
+}
+
+.christmas-title {
+  color: #ffd700;
+  font-size: 32px;
+  margin-bottom: 15px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  animation: bounce 1s ease-in-out infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.christmas-message {
+  color: #ffffff;
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.christmas-tagline {
+  color: #c77e2e;
+  font-size: 16px;
+  margin-bottom: 25px;
+  font-style: italic;
+}
+
+.christmas-modal-btn {
+  display: inline-block;
+  background-color: #c77e2e;
+  color: white;
+  padding: 12px 35px;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  border: 2px solid #c77e2e;
+  font-size: 16px;
+}
+
+.christmas-modal-btn:hover {
+  background-color: transparent;
+  color: #c77e2e;
+  transform: scale(1.05);
+}
+
+.christmas-decorations {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.snowflake {
+  position: absolute;
+  color: #ffffff;
+  font-size: 24px;
+  opacity: 0.7;
+  animation: snowfall 5s linear infinite;
+}
+
+.snowflake:nth-child(1) {
+  left: 10%;
+  animation-delay: 0s;
+  animation-duration: 5s;
+}
+
+.snowflake:nth-child(2) {
+  left: 50%;
+  animation-delay: 1s;
+  animation-duration: 6s;
+}
+
+.snowflake:nth-child(3) {
+  left: 85%;
+  animation-delay: 2s;
+  animation-duration: 5.5s;
+}
+
+@keyframes snowfall {
+  from {
+    top: -20px;
+    opacity: 0.7;
+  }
+  to {
+    top: 100%;
+    opacity: 0;
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .christmas-modal-content {
+    padding: 30px 25px;
+    max-width: 90%;
+  }
+  
+  .christmas-title {
+    font-size: 24px;
+  }
+  
+  .christmas-message {
+    font-size: 16px;
+  }
+  
+  .christmas-tagline {
+    font-size: 14px;
+  }
+  
+  .christmas-modal-btn {
+    padding: 10px 25px;
+    font-size: 14px;
+  }
+}
+
 /* 1. Theme default css */
  body {
   font-family: 'Poppins', sans-serif;
@@ -11,6 +209,8 @@
 	font-weight: normal;
 	font-style: normal;
   line-height: 26px;
+ 
+
 }
 .text-left{
     text-align: left !important;
@@ -1911,3 +2111,5 @@ margin-bottom: 10px;
     margin-top: 10px;
   }
 } */
+
+

@@ -791,7 +791,7 @@
                   <div class="col-lg-3">   
                   </div>
                   <div class="col-lg-4 text-right">
-                      Website Designed By <a href="https://brinit.in/" target="_blank">Brin'IT</a>      
+                      Website Designed By <a href="#" target="_blank">PRception</a>            
                   </div>
               </div>
           </div>
@@ -885,6 +885,44 @@ updateCount();
     <script src="js/element-in-view.js"></script>
     <script src="js/main.js"></script>
 
+    <!-- Christmas Modal -->
+    <div id="christmasModal" class="christmas-modal-overlay">
+        <div class="christmas-modal-content">
+            <button class="christmas-modal-close" onclick="closeChristmasModal()">&times;</button>
+            <div class="christmas-modal-inner">
+                <h2 class="christmas-title">🎄 Merry Christmas! 🎄</h2>
+                <p class="christmas-message">Celebrate the festive season with us!</p>
+                <p class="christmas-tagline">Enjoy special offers on all our products</p>
+                <a href="shop.html" class="christmas-modal-btn">Shop Now</a>
+            </div>
+            <div class="christmas-decorations">
+                <span class="snowflake">❄</span>
+                <span class="snowflake">❄</span>
+                <span class="snowflake">❄</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Open Christmas modal after 3 seconds
+        window.addEventListener('load', function() {
+            setTimeout(function() {
+                document.getElementById('christmasModal').style.display = 'flex';
+            }, 3000);
+        });
+
+        // Close modal function
+        function closeChristmasModal() {
+            document.getElementById('christmasModal').style.display = 'none';
+        }
+
+        // Close modal when clicking outside the modal content
+        document.getElementById('christmasModal').addEventListener('click', function(event) {
+            if (event.target === this) {
+                closeChristmasModal();
+            }
+        });
+    </script>
 
 </body>
 </html>
