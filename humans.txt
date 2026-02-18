@@ -1,0 +1,49 @@
+/* DESIGN & DEVELOPMENT */
+
+
+Designer & Developer: 
+1. Mohammed Nihal
+LinkedIn: https://www.linkedin.com/in/m-nihal13
+GitHub: https://github.com/mnihal-13
+
+2. Alfiya 
+LinkedIn: https://www.linkedin.com/in/alfiya-s-14b957219/
+
+Design Studio: Prception
+Website: https://prception.in
+
+/* TEAM */
+
+Brand: Moster (by Iriss Electronics)
+Website: https://www.mostertv.com
+Contact: iriselectronics22@gmail.com
+Phone: +91 7012194908
+Location: Karakkattukunnu, Mekkad, Ernakulam, Angamaly, Kerala 683589, India
+
+
+/* SITE */
+
+Last Updated: 2026-02-18
+Language: English
+Standards: HTML5, CSS3, JavaScript
+Components: Bootstrap, jQuery, Slick Slider, Owl Carousel, WOW.js, Font Awesome
+Software: Google Tag Manager (GTM-WZCMM8S4)
+
+/* ABOUT */
+
+Moster is Kerala's leading smart TV brand offering a full range of
+Android TVs, Google TVs, WebOS TVs, Speakers, and Washing Machines.
+Available in sizes from 24" to 65" with 4K, FHD, and HD options.
+Showrooms in Trivandrum, Kochi, and Calicut.
+
+Product Lines:
+- Moster Prime TV (Premium Google TVs)
+- Moster TV (Mid-range Android & WebOS TVs)
+- Nicer TV (Budget-friendly Smart TVs)
+- Speakers (DJ, Tower, Trolley Karaoke)
+- Washing Machines
+
+Social:
+- Facebook: https://www.facebook.com/mostertv
+- Instagram: https://www.instagram.com/mosterelectronics
+- WhatsApp: https://wa.me/917012194908
