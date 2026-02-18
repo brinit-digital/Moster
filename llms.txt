@@ -1,0 +1,64 @@
+# Moster Smart TVs
+
+> Kerala's leading smart TV and home electronics brand by Iriss Electronics.
+
+Moster offers affordable, high-quality Smart TVs (Android, Google, and WebOS), Speakers, and Washing Machines designed for Indian homes. Available online at [mostertv.com](https://www.mostertv.com) and at showrooms in Trivandrum, Kochi, and Calicut, Kerala, India.
+
+## Website Structure
+
+- [Home](https://www.mostertv.com/): Main landing page showcasing best sellers, customer reviews, and brand overview
+- [About Us](https://www.mostertv.com/about.html): Company story, values, why-choose-us features, and customer testimonials
+- [Products / Shop](https://www.mostertv.com/shop.html): Full product catalog with category filtering (Moster Prime TV, Moster TV, Nicer TV, Speaker, Washing Machine)
+- [Contact](https://www.mostertv.com/contact.html): Contact form, working hours, and store locations with maps for Trivandrum, Kochi, and Calicut
+
+## Product Categories
+
+### Moster Prime TV (Premium Range)
+- [32" Google TV](https://www.mostertv.com/32-moster-prime-google-tv.html): HD Google TV with voice remote - ₹11,999
+- [43" Google LED TV](https://www.mostertv.com/43-moster-google-led-tv.html): With free soundbar & subwoofer, 4-year warranty - ₹23,500
+- [43" 4K Google TV](https://www.mostertv.com/43-moster-4k-google-tv.html): 4K Google TV with free soundbar & subwoofer - ₹26,500
+- [50" 4K Google TV](https://www.mostertv.com/50-moster-4k-google-tv.html): 4K with voice control and brilliant colors - ₹34,500
+- [55" Moster Prime LED TV](https://www.mostertv.com/55-moster-prime-led-tv.html): 4K Google TV for home theatre - ₹39,500
+- [65" Moster Prime LED TV](https://www.mostertv.com/65-moster-prime-led-tv.html): Ultra-realistic 4K with immersive sound - ₹55,500
+
+### Moster TV (Mid-Range)
+- [32" Android Smart LED TV](https://www.mostertv.com/32-moster-android-led-tv.html): Compact Android TV - ₹10,200
+- [43" 4K WebOS LED TV](https://www.mostertv.com/43-moster-4k-webos-led-tv.html): 4K visuals with WebOS - ₹22,999
+- [43" FHD Android LED TV](https://www.mostertv.com/43-moster-fhd-android-led-tv.html): FHD Android with free soundbar - ₹20,500
+
+### Nicer TV (Budget-Friendly)
+- [24" LED TV](https://www.mostertv.com/24-nicer-led-tv.html): Basic LED TV - ₹5,600
+- [24" Android Smart LED TV](https://www.mostertv.com/24-nicer-android-led-tv.html): Compact Android TV - ₹6,499
+- [32" Android Smart LED TV](https://www.mostertv.com/32-nicer-android-led-tv.html): HD Android TV - ₹7,900
+- [43" FHD Android LED TV](https://www.mostertv.com/43-nicer-fhd-android-led-tv.html): FHD Android TV - ₹12,900
+
+### Speakers
+- [DJ Speaker](https://www.mostertv.com/dj-speaker.html): 10" x 4 DJ Speaker System - ₹12,490
+- [Tower Speaker](https://www.mostertv.com/Tower-speaker.html): 150W with Bluetooth, cordless mic & LED lights - ₹7,999
+- [Trolley Karaoke Speaker](https://www.mostertv.com/trolley-karokke-speaker.html): 120W portable with wireless mic & TWS - ₹8,999
+
+### Washing Machine
+- [Washing Machine](https://www.mostertv.com/washing-machine.html): Durable, rust-free with soak and spin cycles - ₹8,800
+
+## Key Brand Information
+
+- **Brand Name**: Moster (by Iriss Electronics)
+- **Domain**: www.mostertv.com
+- **Industry**: Consumer Electronics (Smart TVs, Speakers, Washing Machines)
+- **Market**: Kerala, India
+- **Price Range**: ₹5,600 to ₹55,500
+- **TV Sizes**: 24" to 65"
+- **TV Technologies**: Android TV, Google TV, WebOS
+- **Resolution Options**: HD, FHD (1080p), 4K UHD
+- **Showroom Locations**: Trivandrum, Kochi (Angamaly), Calicut (Kozhikode)
+- **Phone**: +91 7012194908
+- **Email**: iriselectronics22@gmail.com
+- **Facebook**: https://www.facebook.com/mostertv
+- **Instagram**: https://www.instagram.com/mosterelectronics
+- **WhatsApp**: https://wa.me/917012194908
+
+## Optional
+
+- [Sitemap](https://www.mostertv.com/sitemap.xml)
+- [Robots.txt](https://www.mostertv.com/robots.txt)
+- [Humans.txt](https://www.mostertv.com/humans.txt)

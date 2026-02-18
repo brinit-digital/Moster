@@ -1,0 +1,22 @@
+# robots.txt for www.mostertv.com
+# Moster Smart TVs - Kerala's Leading Smart TV Brand
+
+User-agent: *
+Allow: /
+
+# Disallow non-content directories
+Disallow: /archive/
+Disallow: /js/
+Disallow: /css/
+Disallow: /fontawesome/
+Disallow: /fonts/
+
+# Disallow placeholder/incomplete pages
+Disallow: /prvacy-policy.html
+Disallow: /terms-and-conditions.html
+
+# Disallow 404 page
+Disallow: /404.html
+
+# Sitemap location
+Sitemap: https://www.mostertv.com/sitemap.xml
